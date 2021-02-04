@@ -1,4 +1,4 @@
-Team Win Recovery Project Device Tree for Itel A48 generated using "twrpdtgen" Python package via pip 
+Team Win Recovery Project Device Tree for Itel A48 generated using "twrpdtgen" Python package installed via pip 
 ===========
 Unoffical Build for Unisoc SC9832E, Google Android 10 (Go Edition) & Kernel 4.14.133+ 
 ------------------
