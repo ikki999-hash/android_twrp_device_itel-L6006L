@@ -17,5 +17,3 @@ lunch omni_itel-L6006L-eng
 
 mka recoveryimage
 ```
-
-- full stable recovery twrp image (3.18.19)
