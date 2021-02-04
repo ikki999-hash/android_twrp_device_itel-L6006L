@@ -1,0 +1,15 @@
+# mount point       fstype    device                                                                flags
+/dtbo               emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/dtbo         flags=display="Dtbo";backup=1;flashimg=1;
+/misc               emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/misc         flags=display="Misc";backup=1;flashimg=1;
+/boot               emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/boot         flags=display="Boot";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/recovery     flags=display="Recovery";backup=1;flashimg=1;
+/persist            emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist      flags=display="Persist";
+/persist_image      emmc      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist      flags=display="Persist image";backup=1;flashimg=1;
+/system             ext4      system                                                                flags=display="System";backup=1;logical;
+/system_image       emmc      system                                                                flags=display="System image";backup=1;flashimg=1;logical;
+/vendor             ext4      vendor                                                                flags=display="Vendor";backup=1;logical;
+/vendor_image       emmc      vendor                                                                flags=display="Vendor image";backup=1;flashimg=1;logical;
+/product            ext4      product                                                               flags=display="Product";backup=1;logical;
+/product_image      emmc      product                                                               flags=display="Product image";backup=1;flashimg=1;logical;
+/data               f2fs      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata     flags=display="Data";
+/cache              ext4      /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache        flags=display="Cache";
