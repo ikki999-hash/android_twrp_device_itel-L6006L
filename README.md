@@ -9,7 +9,7 @@ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.
 
 repo sync -c
 
-git clone https://github.com/seluce/android_twrp_device device/itel/itel-L6006L -b itel-L6006L
+git clone https://github.com/ikki999-hash/android_twrp_device device/itel/itel-L6006L -b itel-L6006L
 
 . build/envsetup.sh
 
