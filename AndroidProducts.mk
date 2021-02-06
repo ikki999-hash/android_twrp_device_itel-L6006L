@@ -17,4 +17,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_itel-L6006L.mk
+     $(LOCAL_DIR)/omni_L6006L.mk
+	 
+COMMON_LUNCH_CHOICES := \
+    omni_L6006L-userdebug \
+    omni_L6006L-eng
