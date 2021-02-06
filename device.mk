@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/itel/itel-L6006L
+LOCAL_PATH := device/itel/L6006L
 
