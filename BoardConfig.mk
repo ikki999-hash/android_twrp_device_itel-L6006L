@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/itel/itel-L6006L
+DEVICE_PATH := device/itel/L6006L
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := itel-L6006L
+TARGET_OTA_ASSERT_DEVICE := L6006L
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -60,8 +60,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/itel/itel-L6006L
-TARGET_KERNEL_CONFIG := itel-L6006L_defconfig
+TARGET_KERNEL_SOURCE := kernel/itel/L6006L
+TARGET_KERNEL_CONFIG := L6006L_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := sp9832e
